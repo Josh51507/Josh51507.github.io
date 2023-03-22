@@ -7,7 +7,7 @@
 
 	.starter-heading { 
 	color: rgb( 0, 232, 225);
-	font-size: 110px; 
+	font-size: 35px; 
 	font-family: sans-serif;
 	background: rgb(0, 0,0);
 	text-shadow: 5px 5px 1px blue;
@@ -37,7 +37,7 @@
 	
 	.home {
 	position: absolute;
- 	top: 35%;
+ 	top: 25%%;
  	left: 20%;
  	transform: translate(-50%,-50%);
  	width: 20%;
@@ -45,7 +45,7 @@
  	text-align: center;
  	line-height: 60px;
  	color: #fff;
- 	font-size: 40px;
+ 	font-size: 24px;
  	text-transform: uppercase;
  	text-decoration: none;
  	font-family: sans-serif;
@@ -91,7 +91,7 @@
 
 		.social {
 	position: absolute;
- 	top: 35%;
+ 	top: 25%;
  	left: 80%;
  	transform: translate(-50%,-50%);
  	width: 20%;
@@ -99,7 +99,7 @@
  	text-align: center;
  	line-height: 60px;
  	color: #fff;
- 	font-size: 40px;
+ 	font-size: 24px;
  	text-transform: uppercase;
  	text-decoration: none;
  	font-family: sans-serif;
@@ -144,7 +144,7 @@
 
 	.email {
 	position: absolute;
- 	top: 35%;
+ 	top: 25%;
  	left: 50%;
  	transform: translate(-50%,-50%);
  	width: 20%;
@@ -152,7 +152,7 @@
  	text-align: center;
  	line-height: 60px;
  	color: #fff;
- 	font-size: 40px;
+ 	font-size: 24px;
  	text-transform: uppercase;
  	text-decoration: none;
  	font-family: sans-serif;
@@ -198,7 +198,7 @@
 @media only screen and (min-width: 768px) {
     .starter-heading { 
 	color: rgb( 0, 232, 225);
-	font-size: 35px; 
+	font-size: 75px; 
 	font-family: sans-serif;
 	background: rgb(0, 0,0);
 	text-shadow: 5px 5px 1px blue;
