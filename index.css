@@ -40,8 +40,8 @@
  	top: 25%;
  	left: 50%;
  	transform: translate(-50%,-50%);
- 	width: 20%;
- 	height: 8%;
+ 	width: 95%;
+ 	height: 12%;
  	text-align: center;
  	line-height: 60px;
  	color: #fff;
@@ -91,11 +91,11 @@
 
 		.social {
 	position: absolute;
- 	top: 50%;
+ 	top: 40%;
  	left: 50%;
  	transform: translate(-50%,-50%);
- 	width: 20%;
- 	height: 8%;
+ 	width: 95%;
+ 	height: 12%;
  	text-align: center;
  	line-height: 60px;
  	color: #fff;
@@ -144,11 +144,11 @@
 
 	.email {
 	position: absolute;
- 	top: 75%;
+ 	top: 55%;
  	left: 50%;
  	transform: translate(-50%,-50%);
- 	width: 20%;
- 	height: 8%;
+ 	width: 95%;
+ 	height: 12%;
  	text-align: center;
  	line-height: 60px;
  	color: #fff;
