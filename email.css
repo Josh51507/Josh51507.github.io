@@ -8,3 +8,9 @@
     width: 400px;
     height: 300;
 }
+
+.name-label {
+    left: 50%;
+    top: 20%;
+    font-size: 32px;
+}
