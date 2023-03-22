@@ -37,8 +37,8 @@
 	
 	.home {
 	position: absolute;
- 	top: 25%%;
- 	left: 20%;
+ 	top: 25%;
+ 	left: 50%;
  	transform: translate(-50%,-50%);
  	width: 20%;
  	height: 8%;
@@ -91,8 +91,8 @@
 
 		.social {
 	position: absolute;
- 	top: 25%;
- 	left: 80%;
+ 	top: 50%;
+ 	left: 50%;
  	transform: translate(-50%,-50%);
  	width: 20%;
  	height: 8%;
@@ -144,7 +144,7 @@
 
 	.email {
 	position: absolute;
- 	top: 25%;
+ 	top: 75%;
  	left: 50%;
  	transform: translate(-50%,-50%);
  	width: 20%;
