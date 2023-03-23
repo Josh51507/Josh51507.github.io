@@ -1,5 +1,5 @@
 
-
+/* this first part is for iphone picture from here*/
 * {
 		margin: 0;
 		padding: 0;
@@ -194,6 +194,7 @@
  opacity: 1;
  animation: animate 8s linear infinite;
 
+ /* to here*/
 
 @media only screen and (min-width: 768px) {
     .starter-heading { 
