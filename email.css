@@ -1,27 +1,72 @@
 .name-text-box {
-    left: 50%;
-    top: 35%;
-    width: 400px;
-    height: 300px;
+      width: 355spx;
+    height: 50px;
+    margin: 10px;
+    background: gray;
+}
+
+.email-text-box {
+      width: 355spx;
+    height: 50px;
+    margin: 10px;
+    background: gray;
+}
+
+.message-textarea {
+      width: 355spx;
+    height: 50px;
+    margin: 10px;
+    background: gray;
 }
 
 .name-label {
-    left: 50%;
-    top: 20%;
-    font-size: 32px;
-    color: white;
+    font-size: 56px;
+    color: Black;
 }
 
 .email-label {
-    left: 50%;
-    top: 50%;
-    font-size: 32px;
-    color: white;
+    font-size: 56px;
+    color: Black;
 }
 
 .message-label {
-    left: 50%;
-    top: 75%;
-    font-size: 32px;
-    color: white;
+    font-size: 56px;
+    color: Black;
+}
+
+.container {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+background: white;
+display: flex;
+flex-direction: column;
+width: 70%;
+border-radius: 10px;
+}
+
+button {
+    position: absolute;
+ 	top: 65%;
+ 	left: 50%;
+ 	transform: translate(-50%,-50%);
+ 	width: 60%;
+ 	height: 8%;
+ 	text-align: center;
+ 	line-height: 60px;
+ 	color: #fff;
+ 	font-size: 56px;
+ 	text-transform: uppercase;
+ 	text-decoration: none;
+ 	font-family: sans-serif;
+ 	box-sizing: border-box;
+ 	background: linear-gradient(90deg, #03a9f4, #f441a4, #ffeb3b, #03a9f4);
+ 	background-size: 400%;
+ 	border-radius: 90px;
+ 	z-index: 1; 
 }
