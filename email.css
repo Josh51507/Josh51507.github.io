@@ -1,0 +1,27 @@
+.name-text-box {
+    left: 50%;
+    top: 35%;
+    width: 400px;
+    height: 300px;
+}
+
+.name-label {
+    left: 50%;
+    top: 20%;
+    font-size: 32px;
+    color: white;
+}
+
+.email-label {
+    left: 50%;
+    top: 50%;
+    font-size: 32px;
+    color: white;
+}
+
+.message-label {
+    left: 50%;
+    top: 75%;
+    font-size: 32px;
+    color: white;
+}
