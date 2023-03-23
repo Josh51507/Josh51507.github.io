@@ -47,12 +47,13 @@ background: white;
 display: flex;
 flex-direction: column;
 width: 70%;
-border-radius: 10px;
+height: 60%;
+border-radius: 20px;
 }
 
 button {
     position: absolute;
- 	top: 65%;
+ 	top: 70%;
  	left: 50%;
  	transform: translate(-50%,-50%);
  	width: 60%;
