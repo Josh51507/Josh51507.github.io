@@ -32,9 +32,9 @@
 
 .message-textarea {
       width: 37vh;
-    height: 90px;
-    margin: 10px;
-    outline: none;
+     height: 90px;
+     margin: 10px;
+     outline: none;
      font-size: 32px;
      background: #f2f2f2;
      border-radius: 20px;
@@ -68,17 +68,16 @@ background: white;
 display: flex;
 flex-direction: column;
 width: 70%;
-height: 55%;
+height: 50%;
 border-radius: 20px;
 }
 
 button {
-    position: absolute;
- 	top: 80%;
- 	left: 50%;
+    margin-top: 15%; 
+    margin-left: 50%;
  	transform: translate(-50%,-50%);
- 	width: 60%;
- 	height: 8%;
+ 	width: 80%;
+ 	height: 15%;
  	text-align: center;
  	line-height: 60px;
  	color: #fff;
@@ -136,7 +135,7 @@ animation: animate 8s linear infinite;
     .container { 
         zoom: 80%;
         width: 100%;
-        height: 160vh;
+        height: 180vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -177,14 +176,13 @@ animation: animate 8s linear infinite;
     .message-textarea {
       zoom: 100%;
       width: 165vh;
-      height: 110px;
+      height: 150px;
       font-size: 42px;
     }
 
     button {
-     zoom: 100%;
- 	 top: 121%;
- 	 left: 50%;
- 	 width: 68%;
+     margin-top: 4%; 
+     width: 80%;
+ 	 height: 20%;
     }
 }
