@@ -136,7 +136,7 @@ animation: animate 8s linear infinite;
     .container { 
         zoom: 80%;
         width: 100%;
-        height: 110vh;
+        height: 160vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -162,45 +162,29 @@ animation: animate 8s linear infinite;
 
     .name-text-box {
       zoom: 100%;
-      width: 135vh;
+      width: 165vh;
       height: 70px;
       font-size: 42px;
     }
 
     .email-text-box {
       zoom: 100%;
-      width: 135vh;
+      width: 165vh;
       height: 70px;
       font-size: 42px;
     }
 
     .message-textarea {
       zoom: 100%;
-      width: 135vh;
+      width: 165vh;
       height: 110px;
       font-size: 42px;
     }
 
     button {
-     zoom: 80%;
-     position: absolute;
- 	 top: 100%;
+     zoom: 100%;
+ 	 top: 121%;
  	 left: 50%;
- 	 transform: translate(-50%,-50%);
- 	 width: 60%;
- 	 height: 8%;
- 	 text-align: center;
- 	 line-height: 60px;
- 	 color: #fff;
- 	 font-size: 56px;
- 	 text-transform: uppercase;
- 	 text-decoration: none;
- 	 font-family: sans-serif;
- 	 box-sizing: border-box;
- 	 background: linear-gradient(90deg, #03a9f4, #f441a4, #ffeb3b, #03a9f4);
- 	 background-size: 400%;
- 	 border-radius: 90px;
- 	 z-index: 1; 
-     border: none;
+ 	 width: 68%;
     }
 }
