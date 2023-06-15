@@ -1,7 +1,3 @@
-#z{
-    zoom: 80%;
-}
-
 .starter-heading { 
 	color: rgb( 0, 232, 225);
 	font-size: 80px; 
@@ -133,10 +129,12 @@ animation: animate 8s linear infinite;
 @media only screen and (min-width: 1000px) { 
 
     .starter-heading { 
+        zoom: 80%;
         font-size: 100px;
     }
 
     .container { 
+        zoom: 80%;
         width: 100%;
         height: 110vh;
         display: flex;
@@ -145,57 +143,64 @@ animation: animate 8s linear infinite;
     }
 
     .name-label {
+        zoom: 80%;
         font-size: 76px;
         color: Black;
     }
 
     .email-label {
+        zoom: 80%;
         font-size: 76px;
         color: Black;
     }
 
     .message-label {
+        zoom: 80%;
         font-size: 76px;
         color: Black;
     }
 
     .name-text-box {
+      zoom: 100%;
       width: 135vh;
       height: 70px;
       font-size: 42px;
     }
 
     .email-text-box {
+      zoom: 100%;
       width: 135vh;
       height: 70px;
       font-size: 42px;
     }
 
     .message-textarea {
+      zoom: 100%;
       width: 135vh;
       height: 110px;
       font-size: 42px;
     }
 
     button {
-    position: absolute;
- 	top: 100%;
- 	left: 50%;
- 	transform: translate(-50%,-50%);
- 	width: 60%;
- 	height: 8%;
- 	text-align: center;
- 	line-height: 60px;
- 	color: #fff;
- 	font-size: 56px;
- 	text-transform: uppercase;
- 	text-decoration: none;
- 	font-family: sans-serif;
- 	box-sizing: border-box;
- 	background: linear-gradient(90deg, #03a9f4, #f441a4, #ffeb3b, #03a9f4);
- 	background-size: 400%;
- 	border-radius: 90px;
- 	z-index: 1; 
+     zoom: 80%;
+     position: absolute;
+ 	 top: 100%;
+ 	 left: 50%;
+ 	 transform: translate(-50%,-50%);
+ 	 width: 60%;
+ 	 height: 8%;
+ 	 text-align: center;
+ 	 line-height: 60px;
+ 	 color: #fff;
+ 	 font-size: 56px;
+ 	 text-transform: uppercase;
+ 	 text-decoration: none;
+ 	 font-family: sans-serif;
+ 	 box-sizing: border-box;
+ 	 background: linear-gradient(90deg, #03a9f4, #f441a4, #ffeb3b, #03a9f4);
+ 	 background-size: 400%;
+ 	 border-radius: 90px;
+ 	 z-index: 1; 
      border: none;
-}
+    }
 }
