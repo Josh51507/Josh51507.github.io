@@ -1,11 +1,8 @@
-	* {
-		margin: 0;
-		padding: 0;
-	}
+
 
 	.starter-heading { 
 	color: rgb( 0, 232, 225);
-	font-size: 38px; 
+	font-size: 46px; 
 	font-family: sans-serif;
 	background: rgb(0, 0,0);
 	text-shadow: 5px 5px 1px blue;
@@ -20,10 +17,7 @@
 	color: white;	
 	}
 	
-	body {
-	padding: 1%;
-	margin: 5%;
-	}
+
 	
 	.home {
 	position: absolute;
@@ -253,6 +247,7 @@
 @media only screen and (min-width: 1000px) {
 	
 	.starter-heading { 
+	zoom: 80%;
     font-size: 100px;
     }
 

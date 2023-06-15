@@ -1,13 +1,8 @@
 
-/* this first part is for iphone picture from here*/
-* {
-		margin: 0;
-		padding: 0;
-	}
 
 	.starter-heading { 
 	color: rgb( 0, 232, 225);
-	font-size: 35px; 
+	font-size: 80px; 
 	font-family: sans-serif;
 	background: rgb(0, 0,0);
 	text-shadow: 5px 5px 1px blue;
@@ -29,16 +24,8 @@
 	.text-color-white {
 	color: white;	
 	}
-	
-	body {
-	padding: 1%;
-	margin: 5%;
-	}
-	
+
 	.home {
-	position: absolute;
- 	top: 25%;
- 	left: 50%;
  	transform: translate(-50%,-50%);
  	width: 95%;
  	height: 12%;
@@ -90,9 +77,6 @@
 
 
 		.social {
-	position: absolute;
- 	top: 40%;
- 	left: 50%;
  	transform: translate(-50%,-50%);
  	width: 95%;
  	height: 12%;
@@ -143,9 +127,6 @@
 }
 
 	.email {
-	position: absolute;
- 	top: 55%;
- 	left: 50%;
  	transform: translate(-50%,-50%);
  	width: 95%;
  	height: 12%;
@@ -196,92 +177,13 @@
  }
  /* to here*/
 
-@media only screen and (min-width: 768px) {
-    .starter-heading { 
-	color: rgb( 0, 232, 225);
-	font-size: 75px; 
-	font-family: sans-serif;
-	background: rgb(0, 0,0);
-	text-shadow: 5px 5px 1px blue;
-	border-top: 5px solid yellow;
-	border-bottom: 5px solid yellow;
-	border-top: 5px solid yellow;
-	width: 100%;
-	height: 100%;
-	}
 
-    .home {
-	position: absolute;
- 	top: 22%;
- 	left: 25%;
- 	transform: translate(-50%,-50%);
- 	width: 35%;
- 	height: 6%;
- 	text-align: center;
- 	line-height: 60px;
- 	color: #fff;
- 	font-size: 24px;
- 	text-transform: uppercase;
- 	text-decoration: none;
- 	font-family: sans-serif;
- 	box-sizing: border-box;
- 	background: linear-gradient(90deg, #03a9f4, #f441a4, #ffeb3b, #03a9f4);
- 	background-size: 400%;
- 	border-radius: 30px;
- 	z-index: 1; 
-	}
-
-	.social {
-	position: absolute;
- 	top: 22%;
- 	left: 70%;
- 	transform: translate(-50%,-50%);
- 	width: 35%;
- 	height: 6%;
- 	text-align: center;
- 	line-height: 60px;
- 	color: #fff;
- 	font-size: 24px;
- 	text-transform: uppercase;
- 	text-decoration: none;
- 	font-family: sans-serif;
- 	box-sizing: border-box;
- 	background: linear-gradient(90deg, #03a9f4, #f441a4, #ffeb3b, #03a9f4);
- 	background-size: 400%;
- 	border-radius: 30px;
- 	z-index: 1; 
-	}
-
-    .email {
-	position: absolute;
- 	top: 35%;
- 	left: 50%;
- 	transform: translate(-50%,-50%);
- 	width: 20%;
- 	height: 8%;
- 	text-align: center;
- 	line-height: 60px;
- 	color: #fff;
- 	font-size: 40px;
- 	text-transform: uppercase;
- 	text-decoration: none;
- 	font-family: sans-serif;
- 	box-sizing: border-box;
- 	background: linear-gradient(90deg, #03a9f4, #f441a4, #ffeb3b, #03a9f4);
- 	background-size: 400%;
- 	border-radius: 30px;
- 	z-index: 1; 
-	}
-}
 
 @media only screen and (min-width: 1000px) {
 	.home {
-	position: absolute;
- 	top: 30%;
- 	left: 15%;
  	transform: translate(-50%,-50%);
- 	width: 17%;
- 	height: 8%;
+ 	width: 25%;
+ 	height: 12%;
  	text-align: center;
  	line-height: 60px;
  	color: #fff;
@@ -297,12 +199,9 @@
 	}
 
      .email {
-	position: absolute;
- 	top: 30%;
- 	left: 50%;
  	transform: translate(-50%,-50%);
- 	width: 17%;
- 	height: 8%;
+ 	width: 25%;
+ 	height: 12%;
  	text-align: center;
  	line-height: 60px;
  	color: #fff;
@@ -318,12 +217,9 @@
 	}
 
 			.social {
-	position: absolute;
- 	top: 30%;
- 	left: 85%;
  	transform: translate(-50%,-50%);
- 	width: 17%;
- 	height: 8%;
+ 	width: 25%;
+ 	height: 12%;
  	text-align: center;
  	line-height: 60px;
  	color: #fff;
@@ -338,4 +234,18 @@
  	z-index: 1; 
 	}
 
+        .starter-heading { 
+        zoom: 80%;
+        font-size: 100px;
+    }
+
+    .menu-buttons {
+        display: flex;
+        flex-direction: row;
+        column-gap: 20%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+        margin-left: 16%;
+    }
 }
