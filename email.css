@@ -126,3 +126,19 @@ opacity: 1;
 animation: animate 8s linear infinite;
 }
 
+@media only screen and (min-width: 1000px) { 
+
+    .starter-heading { 
+        font-size: 100px;
+    }
+
+    .container { 
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
