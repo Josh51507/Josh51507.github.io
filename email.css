@@ -143,19 +143,19 @@ animation: animate 8s linear infinite;
     }
 
     .name-label {
-        zoom: 80%;
+        zoom: 100%;
         font-size: 76px;
         color: Black;
     }
 
     .email-label {
-        zoom: 80%;
+        zoom: 100%;
         font-size: 76px;
         color: Black;
     }
 
     .message-label {
-        zoom: 80%;
+        zoom: 100%;
         font-size: 76px;
         color: Black;
     }
