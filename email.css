@@ -106,11 +106,6 @@ button {
    }
    .send:before {
     content: '';
-    position: absolute;
-    top: -5px;
-    bottom: -5px;
-    right: -5px;
-    left: -5px;
     z-index: -1;
     background: linear-gradient(90deg, #03a9f4, #f441a4, #ffeb3b, #03a9f4);
     background-size: 400%;
@@ -127,12 +122,12 @@ animation: animate 8s linear infinite;
 
  .home {
  	 transform: translate(-50%,-50%);
- 	 width: 33%;
+ 	 width: 36%;
  	 height: 16%;
  	 text-align: center;
  	 line-height: 60px;
  	 color: #fff;
- 	 font-size: 24px;
+ 	 font-size: 26px;
  	 text-transform: uppercase;
  	 text-decoration: none;
  	 font-family: sans-serif;
@@ -145,12 +140,12 @@ animation: animate 8s linear infinite;
 
     .email {
  	 transform: translate(-50%,-50%);
- 	 width: 33%;
+ 	 width: 36%;
  	 height: 16%;
  	 text-align: center;
  	 line-height: 60px;
  	 color: #fff;
- 	 font-size: 24px;
+ 	 font-size: 26px;
  	 text-transform: uppercase;
  	 text-decoration: none;
  	 font-family: sans-serif;
@@ -163,12 +158,12 @@ animation: animate 8s linear infinite;
 
     .social {
      transform: translate(-50%,-50%);
- 	 width: 33%;
+ 	 width: 36%;
  	 height: 16%;
  	 text-align: center;
  	 line-height: 60px;
  	 color: #fff;
- 	 font-size: 24px;
+ 	 font-size: 26px;
  	 text-transform: uppercase;
  	 text-decoration: none;
  	 font-family: sans-serif;
@@ -192,11 +187,6 @@ animation: animate 8s linear infinite;
 	}
 	.home:before {
 		content: '';
-		position: absolute;
-		top: -5px;
-		bottom: -5px;
-		right: -5px;
-		left: -5px;
 		z-index: -1;
 		background: linear-gradient(90deg, #03a9f4, #f441a4, #ffeb3b, #03a9f4);
 		background-size: 400%;
@@ -224,11 +214,6 @@ animation: animate 8s linear infinite;
 	}
 	.social:before {
  content: '';
- position: absolute;
- top: -5px;
- bottom: -5px;
- right: -5px;
- left: -5px;
  z-index: -1;
  background: linear-gradient(90deg, #03a9f4, #f441a4, #ffeb3b, #03a9f4);
  background-size: 400%;
@@ -256,11 +241,6 @@ animation: animate 8s linear infinite;
 	}
 	.email:before {
  content: '';
- position: absolute;
- top: -5px;
- bottom: -5px;
- right: -5px;
- left: -5px;
  z-index: -1;
  background: linear-gradient(90deg, #03a9f4, #f441a4, #ffeb3b, #03a9f4);
  background-size: 400%;
@@ -275,17 +255,17 @@ animation: animate 8s linear infinite;
  animation: animate 8s linear infinite;
  }
 
-  .menu-buttons {
+.menu-buttons {
         display: flex;
         flex-direction: row;
-        column-gap: 15%;
+        column-gap: 10%;
         align-items: center;
         justify-content: center;
         margin-bottom: -34%;
         margin-top: 7%;
-        margin-left: 16%;
-        zoom: 120%;
-    }
+        margin-left: 21%;
+        zoom: 150%;
+ }
 
 @media only screen and (min-width: 1000px) { 
 
