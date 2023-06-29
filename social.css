@@ -173,3 +173,51 @@
 		margin-left: 1%;
 		zoom: 250%;
 	}
+
+@media only screen and (min-width: 1000px) { 
+	
+    .email {
+     height: 12%;
+     width: 25%;
+     font-size: 24px;
+    }
+
+    .social {
+     height: 12%;
+     width: 25%;
+     font-size: 24px;
+    }
+
+    .home {   
+     height: 12%;
+     width: 25%;
+     font-size: 24px;
+    }
+
+	.menu-buttons {
+        display: flex;
+        flex-direction: row;
+        column-gap: 20%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+        margin-left: 16%;
+        zoom: 185%;
+    }
+
+	.starter-heading { 
+        zoom: 100%;
+        font-size: 100px;
+    }
+
+    .social-buttons {
+		display: flex;
+		column-gap: 20%;
+        flex-direction: row;
+		align-items: center;
+        justify-content: center;
+		margin-left: -2%;
+		zoom: 250%;
+	}
+
+}
