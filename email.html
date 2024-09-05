@@ -45,7 +45,7 @@
 <style>
 
 body {
-     background-color: black;
+     background: black;
 }
 
 .starter-heading { 
@@ -66,10 +66,10 @@ body {
 .name-text-box {
      margin-left: 10px;
      margin-right: 10px;
-     height: 5vh;
+     height: 7vh;
      border: 1px solid;
      outline: none;
-     font-size: 32px;
+     font-size: 3.7vw;
      text-align: center;
      background: #f2f2f2;
      border-radius: 20px;
@@ -78,10 +78,10 @@ body {
 .email-text-box {
      margin-left: 10px;
      margin-right: 10px;
-     height: 5vh;
+     height: 7vh;
      border: 1px solid;
      outline: none;
-     font-size: 32px;
+     font-size: 3.7vw;
      text-align: center;
      background: #f2f2f2;
      border-radius: 20px;
@@ -90,10 +90,10 @@ body {
 .message-textarea {
      margin-left: 10px;
      margin-right: 10px;
-     height: 5vh;
+     height: 12vh;
      border: 1px solid;
      outline: none;
-     font-size: 32px;
+     font-size: 3.2vw;
      text-align: center;
      background: #f2f2f2;
      border-radius: 20px;
@@ -101,17 +101,17 @@ body {
 
 
 .name-label {
-    font-size: 56px;
+    font-size: 6.5vw;
     color: Black;
 }
 
 .email-label {
-    font-size: 56px;
+    font-size: 6.5vw;
     color: Black;
 }
 
 .message-label {
-    font-size: 56px;
+    font-size: 6.5vw;
     color: Black;
 }
 
@@ -123,18 +123,20 @@ body {
 
 form {
 width: 50vw;     
-height: 510px;
 background: white;
 display: flex;
 flex-direction: column;
 border-radius: 20px;
 }
 
-button {
+.send {
+
      margin-top: 3vh;
      margin-left: 2.5vw;
- 	height: 20%;
+ 	margin-bottom: 2.5vh;
+     
      width: 45vw;
+     height: 9vh;
  	text-align: center;
 	color: #ffffff;
 	text-decoration: none;
@@ -149,14 +151,15 @@ button {
 .send:hover {
      color: black;
 	transition: 1.5s;
+     background-color: white;
+     border: 1.5px solid black;
    }
    .send:before {
 	content: '';
-	position: absolute;
-	top: -1px;
-	bottom: -1px;
-	right: -1px;
-	left: -1px;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
 	z-index: -1;
 	background: black;
 	background-size: 100%;
@@ -166,8 +169,7 @@ button {
 }
 .send:hover:before {
      opacity: 1;
-	background: white;
-	border: 1.5px solid black;}
+}
 
 .home {
 	transform: translate(-50%, -50%);
