@@ -22,7 +22,7 @@
  	 text-align: center;
  	 line-height: 60px;
  	 color: #fff;
- 	 font-size: 2.2vmax;
+ 	 font-size: 3.2vmax;
  	 text-transform: uppercase;
  	 text-decoration: none;
  	 font-family: sans-serif;
@@ -73,7 +73,7 @@
  	 text-align: center;
  	 line-height: 60px;
  	 color: #fff;
- 	 font-size: 2.2vmax;
+ 	 font-size: 3.2vmax;
  	 text-transform: uppercase;
  	 text-decoration: none;
  	 font-family: sans-serif;
@@ -123,7 +123,7 @@
  	 text-align: center;
  	 line-height: 60px;
  	 color: #fff;
- 	 font-size: 2.2vmax;
+ 	 font-size: 3.2vmax;
  	 text-transform: uppercase;
  	 text-decoration: none;
  	 font-family: sans-serif;
@@ -189,7 +189,7 @@
  	text-align: center;
  	line-height: 60px;
  	color: #fff;
- 	font-size: 24px;
+ 	font-size: 3.2vmax;
  	text-transform: uppercase;
  	text-decoration: none;
  	font-family: sans-serif;
@@ -207,7 +207,7 @@
  	text-align: center;
  	line-height: 60px;
  	color: #fff;
- 	font-size: 24px;
+ 	font-size: 3.2vmax;
  	text-transform: uppercase;
  	text-decoration: none;
  	font-family: sans-serif;
@@ -225,7 +225,7 @@
  	text-align: center;
  	line-height: 60px;
  	color: #fff;
- 	font-size: 24px;
+ 	font-size: 3.2vmax;
  	text-transform: uppercase;
  	text-decoration: none;
  	font-family: sans-serif;
@@ -238,7 +238,7 @@
 
         .starter-heading { 
         zoom: 80%;
-        font-size: 100px;
+        font-size: 10vmin;
     }
 
     .menu-buttons {
@@ -247,7 +247,7 @@
         column-gap: 20%;
         align-items: center;
         justify-content: center;
-        margin-top: 5%;
+        margin-top: 7vmin;
         margin-left: 16%;
     }
 }
