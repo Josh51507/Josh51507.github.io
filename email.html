@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	
-<link rel="stylesheet" href="email.css">
+<link rel="stylesheet" href="">
 
 <head>
 <h1 class="starter-heading" align="center"><em><strong>C o n t a c t </strong></em></h1>
@@ -41,3 +41,266 @@
 </body>
 
 </html>
+
+<style>
+
+body {
+     background-color: black;
+}
+
+.starter-heading { 
+	color: rgb(255, 255, 255);
+	font-size: 10vmin; 
+	font-family: sans-serif;
+	background: rgb(0, 0,0);
+	text-shadow: 3px 3px 1px rgb(255, 0, 0);
+	border-top: 5px solid rgb(255, 255, 255);
+	border-bottom: 5px solid rgb(255, 255, 255);
+	width: 100%;
+	height: 100%;
+}
+
+/*
+*/
+
+.name-text-box {
+     margin-left: 10px;
+     margin-right: 10px;
+     height: 5vh;
+     border: 1px solid;
+     outline: none;
+     font-size: 32px;
+     text-align: center;
+     background: #f2f2f2;
+     border-radius: 20px;
+}
+
+.email-text-box {
+     margin-left: 10px;
+     margin-right: 10px;
+     height: 5vh;
+     border: 1px solid;
+     outline: none;
+     font-size: 32px;
+     text-align: center;
+     background: #f2f2f2;
+     border-radius: 20px;
+}
+
+.message-textarea {
+     margin-left: 10px;
+     margin-right: 10px;
+     height: 5vh;
+     border: 1px solid;
+     outline: none;
+     font-size: 32px;
+     text-align: center;
+     background: #f2f2f2;
+     border-radius: 20px;
+}
+
+
+.name-label {
+    font-size: 56px;
+    color: Black;
+}
+
+.email-label {
+    font-size: 56px;
+    color: Black;
+}
+
+.message-label {
+    font-size: 56px;
+    color: Black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+width: 50vw;     
+height: 510px;
+background: white;
+display: flex;
+flex-direction: column;
+border-radius: 20px;
+}
+
+button {
+     margin-top: 0vh;
+	transform: translate(2.5vh, 4vh);
+ 	height: 20%;
+     width: 90%;
+ 	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 2.8vmax;
+	text-transform: uppercase;
+	border: 1.5px solid white;
+	border-radius: 30px;
+	line-height: 60px;
+	background: black;
+}
+
+.send:hover {
+     color: black;
+	transition: 1.5s;
+   }
+   .send:before {
+	content: '';
+	position: absolute;
+	top: -1px;
+	bottom: -1px;
+	right: -1px;
+	left: -1px;
+	z-index: -1;
+	background: black;
+	background-size: 100%;
+	border-radius: 30px;
+	opacity: 0;
+	transition: 1s;
+}
+.send:hover:before {
+     opacity: 1;
+	background: white;
+	border: 1.5px solid black;}
+
+.home {
+	transform: translate(-50%, -50%);
+	width: 36%;
+ 	height: 16%;
+ 	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 2.8vmax;
+	text-transform: uppercase;
+	border: 1.5px solid white;
+	border-radius: 30px;
+	line-height: 60px;
+	background: black;
+}
+
+.home:hover {
+	color: black;
+	transition: 1.5s;
+}
+
+.home:before {
+	content: '';
+	position: absolute;
+	top: -1px;
+	bottom: -1px;
+	right: -1px;
+	left: -1px;
+	z-index: -1;
+	background: black;
+	background-size: 100%;
+	border-radius: 30px;
+	opacity: 0;
+	transition: 1s;
+}
+
+.home:hover:before {
+ 	opacity: 1;
+	background: white;
+	border: 1.5px solid black;
+}
+
+
+.social {
+	transform: translate(-50%, -50%);
+	width: 36%;
+ 	height: 16%;
+ 	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 2.8vmax;
+	text-transform: uppercase;
+	border: 1.5px solid white;
+	border-radius: 30px;
+	line-height: 60px;
+	background: black;
+}
+	
+.social:hover {
+	color: black;
+	transition: 1.5s;
+}
+
+.social:before {
+	content: '';
+	position: absolute;
+	top: -1px;
+	bottom: -1px;
+	right: -1px;
+	left: -1px;
+	z-index: -1;
+	background: black;
+	background-size: 100%;
+	border-radius: 30px;
+	opacity: 0;
+	transition: 1s;
+}
+
+.social:hover:before {
+	opacity: 1;
+ 	background: white;
+	border: 1.5px solid black;
+}
+
+.email {
+	transform: translate(-50%, -50%);
+	width: 36%;
+ 	height: 16%;
+ 	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 2.8vmax;
+	text-transform: uppercase;
+	border: 1.5px solid white;
+	border-radius: 30px;
+	line-height: 60px;
+	background: black;
+}
+	
+.email:hover {
+	color: black;
+	transition: 1.5s;
+}
+
+.email:before {
+	content: '';
+	position: absolute;
+	top: -1px;
+	bottom: -1px;
+	right: -1px;
+	left: -1px;
+	z-index: -1;
+	background: black;
+	background-size: 100%;
+	border-radius: 30px;
+	opacity: 0;
+	transition: 1s;
+}
+
+.email:hover:before {
+	opacity: 1;
+ 	background: white;
+	border: 1.5px solid black;
+}
+
+.menu-buttons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7vmin;
+    margin-left: 21.5vw;
+    zoom: 100vw;
+}
+</style>
