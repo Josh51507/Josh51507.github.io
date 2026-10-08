@@ -1,0 +1,270 @@
+/* Shared styles for every page: black / white / red */
+
+:root {
+  --accent: rgb(255, 184, 0);
+  --accent-rgb: 255 184 0; /* same color as space-separated numbers, used for the soft glows */
+  --white: #fff;
+  --black: #000;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--black);
+}
+
+/* Background: black with faint diagonal lines and red glows, one of them drifting slowly */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background:
+    repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.035) 0 2px, transparent 2px 22px),
+    radial-gradient(ellipse at 15% 8%, rgb(var(--accent-rgb) / 0.35), transparent 55%),
+    radial-gradient(ellipse at 85% 92%, rgb(var(--accent-rgb) / 0.25), transparent 50%),
+    #050505;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  z-index: -1;
+  left: -25vmax;
+  top: -25vmax;
+  width: 75vmax;
+  height: 75vmax;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgb(var(--accent-rgb) / 0.3), transparent 65%);
+  animation: drift 30s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+
+@keyframes drift {
+  to {
+    transform: translate(70vmax, 50vmax) scale(1.2);
+  }
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+  font-family: sans-serif;
+  color: var(--white);
+}
+
+/* Heading band */
+.starter-heading {
+  margin: clamp(12px, 3vmin, 28px) 0 0;
+  padding: 0.2em 0 0.2em 0.2em; /* left padding balances the trailing letter-spacing */
+  color: var(--white);
+  background: var(--black);
+  font-size: clamp(1.75rem, 8.5vmin, 5.5rem);
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-shadow: 3px 3px 1px var(--accent);
+  border-top: 5px solid var(--white);
+  border-bottom: 5px solid var(--white);
+}
+
+/* Menu buttons (.home, .social and .email share these rules) */
+.menu-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem 1.25rem;
+  margin: clamp(16px, 5vmin, 48px) auto;
+  padding: 0 1rem;
+}
+
+.menu-buttons a,
+.button,
+.send {
+  display: inline-block;
+  padding: 0.6em 1.4em;
+  color: var(--white);
+  background: var(--black);
+  border: 1.5px solid var(--white);
+  border-radius: 30px;
+  font: inherit;
+  font-size: clamp(0.9rem, 3.2vw, 1.5rem);
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.4s, color 0.4s;
+}
+
+.menu-buttons a:hover,
+.menu-buttons a[aria-current="page"],
+.button:hover,
+.send:hover {
+  color: var(--black);
+  background: var(--white);
+}
+
+/* Page content */
+main {
+  max-width: 36rem;
+  margin: 0 auto;
+  padding: 0 1rem 2rem;
+}
+
+.panel {
+  max-width: 36rem;
+  margin: 0 auto 1.75rem;
+  padding: 1.5rem;
+  text-align: center;
+  background: var(--black);
+  border: 1.5px solid var(--white);
+  border-radius: 30px;
+}
+
+.panel p {
+  margin: 0 0 1.25rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* Home page: photos */
+main.wide {
+  max-width: 56rem;
+}
+
+.hero {
+  margin: 0 0 1.75rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 3px solid var(--white);
+  border-radius: 24px;
+  box-shadow: 6px 6px 0 var(--accent); /* same offset as the heading shadow */
+}
+
+/* Social links */
+.social-buttons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1.1rem;
+}
+
+.social-buttons a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.9rem 1.2rem;
+  color: var(--white);
+  background: var(--black);
+  border: 1.5px solid var(--white);
+  border-radius: 30px;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Red offset shadow echoes the heading's text-shadow */
+.social-buttons a:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0 var(--accent);
+}
+
+.img_size {
+  width: 56px;
+  height: 56px;
+  flex: none;
+  object-fit: contain;
+}
+
+.name {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.desc {
+  display: block;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+/* Contact form */
+.contact-form {
+  display: grid;
+  gap: 1.1rem;
+  padding: 1.5rem;
+  background: var(--black);
+  border: 1.5px solid var(--white);
+  border-radius: 30px;
+}
+
+.field {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.field label {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font: inherit;
+  font-size: 1rem; /* 16px or larger stops iPhones zooming in on focus */
+  color: var(--black);
+  background: #f2f2f2;
+  border: 1px solid var(--white);
+  border-radius: 14px;
+}
+
+.field textarea {
+  min-height: 9rem;
+  resize: vertical;
+}
+
+.send {
+  justify-self: center;
+  margin-top: 0.5rem;
+}
+
+/* Hidden spam trap: people never see it, bots fill it in */
+.honeypot {
+  position: absolute;
+  left: -9999px;
+}
+
+/* Keyboard focus */
+a:focus-visible,
+button:focus-visible,
+.field input:focus-visible,
+.field textarea:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+
+  body::after {
+    animation: none;
+  }
+}
